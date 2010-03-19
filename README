@@ -29,4 +29,5 @@ Simply highlight songs and click the toolbar button to have them moved to the di
 TODO
 ----
 - Add a configuration page to set the directory from the GUI instead of editing the file
+- Bundle an icon instead of using the Humanity folder-download one
 - Build a debian package
