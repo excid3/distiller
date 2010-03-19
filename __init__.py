@@ -78,7 +78,7 @@ class Distiller(rb.Plugin):
 
                 # Create the destination folder if it doesn't exist
                 if not os.path.exists(dest):
-                    os.mkdir(dest)
+                    os.makedirs(dest)
 
                 # Get a move on!
                 shutil.move(urllib.url2pathname(source[7:]), dest)
