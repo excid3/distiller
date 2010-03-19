@@ -3,3 +3,30 @@ Distiller v1.0
 A Rhythmbox plugin to filter music into directories
 
 Author: Chris Oliver <excid3@gmail.com>
+
+
+
+INSTALLATION
+------------
+Basic linux knowledge required.
+
+Extract Distiller where you downloaded it.
+
+By default Distiller copies music to ~/Music. If you would like to modify this, open the Distiller/__init__.py file and modify the value of the variable "destination". Both user path (meaning "~") and variables are expanded for users who are accustomed to using these features.
+
+Once you are finished configuring the destination folder copy the Distiller folder to the clipboard.
+
+Open your home directory, show hidden directories, and navigate to ~/.gnome2/rhythmbox/plugins
+
+You may have to create the directories if it they do not exist. Once there, paste the Distiller folder inside. 
+
+Restart Rhythmbox and open up the plugins dialog and enable Distiller. You will see an icon appear in your toolbar that is Distiller.
+
+Simply highlight songs and click the toolbar button to have them moved to the directory that is configured in the Distiller/__init__.py file.
+
+
+
+TODO
+----
+- Add a configuration page to set the directory from the GUI instead of editing the file
+- Build a debian package
