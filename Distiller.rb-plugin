@@ -1,0 +1,9 @@
+[RB Plugin]
+Loader=python
+Module=Distiller
+IAge=1
+Name=Distiller
+Description=Move music to a new folder
+Authors=Chris Oliver <excid3@gmail.com>
+Copyright=Copyright (c) 2010 Chris Oliver
+Website=http://excid3.com
